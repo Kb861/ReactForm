@@ -1,0 +1,46 @@
+@media (max-width: 600px) {
+  .header {
+    height: 400px;
+  }
+  .header-content {
+    text-align: center;
+  }
+  .table {
+    display: none;
+  }
+}
+
+.App .header {
+  background-color: #757575;
+  color: #312f2fe3;
+  height: 700px;
+}
+
+.App .header nav {
+  background-color: #494949;
+  color: #312f2fe3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.App .header_content {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=App.css.map */

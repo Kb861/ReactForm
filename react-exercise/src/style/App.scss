@@ -1,0 +1,20 @@
+@import "style.scss";
+.App {
+  .header {
+    @include set-background($primary-color);
+    height: 700px;
+
+    nav {
+      @include set-background($primary-dark);
+      @include container;
+      justify-content: space-between;
+    }
+
+    &_content {
+      height: 100%;
+      @include container;
+      justify-content: center;
+      margin-top: 10px;
+    }
+  }
+}

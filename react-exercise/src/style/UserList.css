@@ -1,0 +1,21 @@
+.UserList .data_table {
+  position: relative;
+}
+
+.UserList .data_table .remove {
+  position: absolute;
+  top: 45px;
+  left: 17px;
+  width: 20px;
+  height: 20px;
+}
+
+.UserList .data_table .remove button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+/*# sourceMappingURL=UserList.css.map */

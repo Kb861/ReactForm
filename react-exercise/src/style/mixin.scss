@@ -1,0 +1,13 @@
+@mixin set-background($color) {
+  background-color: $color;
+  color: set-text-color($color);
+}
+
+@function set-text-color($color) {
+  @return #312f2fe3;
+}
+
+@mixin container {
+  display: flex;
+  align-items: center;
+}

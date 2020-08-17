@@ -1,0 +1,20 @@
+.UserList {
+  .data_table {
+    position: relative;
+    .remove {
+      position: absolute;
+      top: 45px;
+      left: 17px;
+      width: 20px;
+      height: 20px;
+      button {
+        background-color: Transparent;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@media (max-width: 600px) {
+  .showcase {
+    height: 400px;
+  }
+  .showcase-content {
+    text-align: center;
+  }
+  .table {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
